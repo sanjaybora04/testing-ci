@@ -3,9 +3,6 @@ steps:
     image: alpine:3.19
     commands:
       - echo "Woodpecker CI is running"
-      - echo "Repository: $CI_REPO"
-      - echo "Branch: $CI_COMMIT_BRANCH"
-      - echo "Commit: $CI_COMMIT_SHA"
       - uname -a
       - ls -la
 
